@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.starbar {
+  height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: $gray40;
+  img {
+    &:not(:first-child) {
+      margin-left: 6px;
+    }
+  }
+}

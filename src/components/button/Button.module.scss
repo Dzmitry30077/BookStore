@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.button {
+  width: 166px;
+  height: 40px;
+  background: $hover;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.reserve {
+  background: $gray5;
+  border: 1px solid $gray20;
+  color: $gray40;
+  &:hover {
+    cursor: unset;
+  }
+}
+
+.active {
+  background: #ffffff;
+  border: 1px solid $gray20;
+  color: $dark;
+}

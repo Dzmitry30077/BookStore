@@ -1,0 +1,59 @@
+@import '../../styles/variables.scss';
+@import '../../styles/wrapper.scss';
+
+.header {
+  height: 58px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  &_pic {
+    height: 40px;
+    width: 165px;
+  }
+}
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  margin-left: 120px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+  color: $dark;
+}
+
+.user {
+  height: 58px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  &_text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+  }
+  &_avatar {
+    width: 58px;
+    height: 58px;
+    margin-left: 16px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    &_pic {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.menu_btn {
+  display: none;
+}

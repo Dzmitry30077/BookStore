@@ -1,0 +1,15 @@
+.block {
+  width: 100%;
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 190px);
+  gap: 24px 21.5px;
+  justify-content: center;
+}
+
+.list {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(1, 825px);
+  gap: 16px;
+}

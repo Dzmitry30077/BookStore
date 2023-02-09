@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.select {
+  height: 38px;
+  width: 150px;
+  padding: 8px 16px 8px 40px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 599px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: $gray40;
+  appearance: none;
+}
+
+.box {
+  position: relative;
+  margin-left: 16px;
+
+  img {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    height: 16px;
+    width: 16px;
+  }
+}
